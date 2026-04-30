@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ProductHelper producto1 = new ProductHelper();
+
+            Console.WriteLine($"{producto1.ObtenerEtiquetaProducto(111, "Jugo Ades", 3000)}");
+
         }
     }
 }
