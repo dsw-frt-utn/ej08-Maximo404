@@ -1,4 +1,5 @@
 ﻿using Dsw2026Ej8.Problema_2;
+using Dsw2026Ej8.Problema_3;
 
 namespace Dsw2026Ej8
 {
@@ -13,6 +14,10 @@ namespace Dsw2026Ej8
             //Problema 2
             Problema2 producto2 = new Problema2();
             Console.WriteLine($"{producto2.CrearResumenVenta(112, "Bon o Bon", 10, 600)}");
+
+            //Problema 3
+            Problema3 producto3 = new Problema3();
+            Console.WriteLine($"{producto3.CompararCopias(15, new Product(113, "Bagio", "Jugo Bagio", 1800))}");
 
         }
     }
