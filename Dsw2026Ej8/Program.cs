@@ -1,5 +1,6 @@
 ﻿using Dsw2026Ej8.Problema_2;
 using Dsw2026Ej8.Problema_3;
+using Dsw2026Ej8.Problema_4;
 
 namespace Dsw2026Ej8
 {
@@ -19,6 +20,13 @@ namespace Dsw2026Ej8
             Problema3 producto3 = new Problema3();
             Console.WriteLine($"{producto3.CompararCopias(15, new Product(113, "Bagio", "Jugo Bagio", 1800))}");
 
+            //Problema 4 
+            Problema4 promedio1 = new Problema4();
+            Console.WriteLine($"{promedio1.CalcularPromedio(8, 10, 9)}");
+            Console.WriteLine($"{promedio1.CalcularPromedio(8, 6, null)}");
+            Console.WriteLine($"{promedio1.CalcularPromedio(-1, 11, 8)}");
+
+            
         }
     }
 }
