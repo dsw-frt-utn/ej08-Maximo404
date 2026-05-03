@@ -2,6 +2,7 @@
 using Dsw2026Ej8.Problema_3;
 using Dsw2026Ej8.Problema_4;
 using Dsw2026Ej8.Problema_5;
+using Dsw2026Ej8.Problema_6;
 
 namespace Dsw2026Ej8
 {
@@ -32,7 +33,10 @@ namespace Dsw2026Ej8
             Problema5 balance1 = new Problema5();
             Console.WriteLine($"{balance1.ObtenerImporteFinal(cafe)}"); //La salida deberia ser 4500
 
-
+            //Problema 6
+            Problema6 problema6 = new Problema6();
+            Console.WriteLine(problema6.NormalizarCodigoProducto("xYz 14 Ff"));
+            Console.WriteLine(problema6.NormalizarCodigoProducto(null));
         }
     }
 }
