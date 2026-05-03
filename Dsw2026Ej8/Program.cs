@@ -1,6 +1,7 @@
 ﻿using Dsw2026Ej8.Problema_2;
 using Dsw2026Ej8.Problema_3;
 using Dsw2026Ej8.Problema_4;
+using Dsw2026Ej8.Problema_5;
 
 namespace Dsw2026Ej8
 {
@@ -26,7 +27,12 @@ namespace Dsw2026Ej8
             Console.WriteLine($"{promedio1.CalcularPromedio(8, 6, null)}");
             Console.WriteLine($"{promedio1.CalcularPromedio(-1, 11, 8)}");
 
-            
+            //Probelema 5
+            Sale cafe = new Sale(1500, "Café", 3);
+            Problema5 balance1 = new Problema5();
+            Console.WriteLine($"{balance1.ObtenerImporteFinal(cafe)}"); //La salida deberia ser 4500
+
+
         }
     }
 }
